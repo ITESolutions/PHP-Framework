@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#TODO setup all redirection to index.php and setup controller for getting files
+
+RewriteRule ^(.*)$ /index.php?request=$1
